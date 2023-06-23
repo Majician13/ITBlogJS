@@ -1,0 +1,17 @@
+{
+  "name": "itblogjs",
+  "version": "1.0.0",
+  "description": "<!DOCTYPE html>\r <!-- majician13.github.io/ITBlog -->\r <html>\r <head>\r   <meta charset=\"UTF-8\">\r   <!-- Deleted header info.  Was showing in actual readme. -->\r </head>\r <body>\r   <h1>IT Blog</h1>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}

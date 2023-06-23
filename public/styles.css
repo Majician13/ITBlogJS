@@ -1,0 +1,169 @@
+/* Global styles */
+
+body {
+  background-color: #f2f2f2;
+  color: #333;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  padding: 20px;
+}
+
+.footer {
+  color: #777;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.h1 {
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.p {
+  margin-bottom: 20px;
+}
+
+.ul {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+/* Navigation */
+.nav {
+  position: relative;
+}
+
+.nav > ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav > ul > li {
+  position: relative;
+}
+
+.nav > ul > li > a {
+  border-radius: 5px;
+  color: #333;
+  font-weight: bold;
+  padding: 5px 10px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.nav > ul > li:hover > a {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.nav ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  padding: 0;
+  margin-top: 5px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav ul li:hover > ul {
+  display: block;
+}
+
+.nav ul ul li {
+  width: auto;
+  white-space: normal;
+}
+
+.nav ul ul li a {
+  display: block;
+  padding: 5px 10px;
+  color: #333;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.nav ul ul li a:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Additions */
+.nav ul ul li:hover > a {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.nav ul ul li a:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.nav li a[href*='MS Word']:hover + ul {
+  display: block;
+}
+
+
+/* Main Content */
+
+.main {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.table-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.table-container table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-container td {
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+}
+
+/* Optional: Add more custom styles as desired */
+
+.back-button {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #333;
+  display: inline-block;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.back-button:hover {
+  background-color: #e0e0e0;
+}
+
